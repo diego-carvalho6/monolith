@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "9253722a-c096-40ee-aecc-d7d1225f62a4": {
+      "ProjectGuid": "9253722a-c096-40ee-aecc-d7d1225f62a4",
+      "DisplayName": "BGD.User.Entities.Dapper",
+      "ColorIndex": 0
+    },
+    "df437bd8-fdee-42a1-a82e-7ed6b275466b": {
+      "ProjectGuid": "df437bd8-fdee-42a1-a82e-7ed6b275466b",
+      "DisplayName": "BGD.User.API",
+      "ColorIndex": 1
+    },
+    "5b2c6ea0-7807-48f8-ac15-4d6470d87004": {
+      "ProjectGuid": "5b2c6ea0-7807-48f8-ac15-4d6470d87004",
+      "DisplayName": "BDG.User.Services",
+      "ColorIndex": 2
+    },
+    "bbb07c53-a512-4264-8112-6c7872606b82": {
+      "ProjectGuid": "bbb07c53-a512-4264-8112-6c7872606b82",
+      "DisplayName": "BGD.User.Repository.Postgres",
+      "ColorIndex": 3
+    },
+    "c853dc27-4b5e-4fb3-b30c-f66273845c6d": {
+      "ProjectGuid": "c853dc27-4b5e-4fb3-b30c-f66273845c6d",
+      "DisplayName": "BDG.User.Services",
+      "ColorIndex": 4
+    },
+    "39f8d61e-ee0b-422e-96a7-896a6358f04f": {
+      "ProjectGuid": "39f8d61e-ee0b-422e-96a7-896a6358f04f",
+      "DisplayName": "BGD.User.Repository.Postgres",
+      "ColorIndex": 5
+    },
+    "70f1fba3-62bb-44aa-b941-dc06ba533f67": {
+      "ProjectGuid": "70f1fba3-62bb-44aa-b941-dc06ba533f67",
+      "DisplayName": "BGD.User.Entities",
+      "ColorIndex": 6
+    },
+    "e7b07daa-3fc9-4c39-92d6-22e3cbc859f1": {
+      "ProjectGuid": "e7b07daa-3fc9-4c39-92d6-22e3cbc859f1",
+      "DisplayName": "BGD.User.Services",
+      "ColorIndex": 7
+    },
+    "65e651d2-e10a-4324-8bc5-0c9ec6861ad3": {
+      "ProjectGuid": "65e651d2-e10a-4324-8bc5-0c9ec6861ad3",
+      "DisplayName": "BGD.User.Repository",
+      "ColorIndex": 8
+    },
+    "896b90b1-21c6-40c7-8f76-8a709dda4c35": {
+      "ProjectGuid": "896b90b1-21c6-40c7-8f76-8a709dda4c35",
+      "DisplayName": "BGD.User.Repository.Dapper.Postgres",
+      "ColorIndex": 9
+    },
+    "89c20c48-02ff-42d5-9fd8-e1eea88475a7": {
+      "ProjectGuid": "89c20c48-02ff-42d5-9fd8-e1eea88475a7",
+      "DisplayName": "BGD.User.API",
+      "ColorIndex": 10
+    },
+    "490cddc7-61e2-412e-8188-9ad9690ed37a": {
+      "ProjectGuid": "490cddc7-61e2-412e-8188-9ad9690ed37a",
+      "DisplayName": "BGD.User.Entities.Dapper",
+      "ColorIndex": 11
+    },
+    "7af70221-7b28-460a-9d3a-b51d022c2c17": {
+      "ProjectGuid": "7af70221-7b28-460a-9d3a-b51d022c2c17",
+      "DisplayName": "BGD.Common.Enviroment",
+      "ColorIndex": 12
+    },
+    "678d49d9-2ec6-425e-bd3b-885dc0930854": {
+      "ProjectGuid": "678d49d9-2ec6-425e-bd3b-885dc0930854",
+      "DisplayName": "BGD.User.Repository.Mongo",
+      "ColorIndex": 13
+    }
+  },
+  "NextColorIndex": 14
+}

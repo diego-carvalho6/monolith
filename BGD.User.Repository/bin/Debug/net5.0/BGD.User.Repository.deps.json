@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BGD.User.Repository/1.0.0": {
+        "dependencies": {
+          "BGD.User.Entities": "1.0.0"
+        },
+        "runtime": {
+          "BGD.User.Repository.dll": {}
+        }
+      },
+      "BGD.User.Entities/1.0.0": {
+        "runtime": {
+          "BGD.User.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BGD.User.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BGD.User.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

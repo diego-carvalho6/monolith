@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BGD.User.API",
+    "\\BGD.User.APII",
+    "\\BGD.User.APII\\BGD.User.API",
+    "\\BGD.User.Repository.Dapper",
+    "\\BGD.User.Repository.Dapper\\Contracts"
+  ],
+  "SelectedNode": "\\BGD.User.sln",
+  "PreviewInSolutionExplorer": false
+}

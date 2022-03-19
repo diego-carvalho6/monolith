@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Dapper" Version="2.0.123" />
+	  <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+	  <PackageReference Include="Dommel" Version="3.0.0" />
+	  <PackageReference Include="FluentMigrator.Console" Version="3.3.1" />
+	  <PackageReference Include="FluentMigrator.Runner" Version="3.3.1" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+	  <PackageReference Include="Npgsql" Version="6.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\BGD.User.Entities.Dapper\BGD.User.Entities.Dapper.csproj" />
+	  <ProjectReference Include="..\BGD.User.Services\BGD.User.Services.csproj" />
+	</ItemGroup>
+</Project>

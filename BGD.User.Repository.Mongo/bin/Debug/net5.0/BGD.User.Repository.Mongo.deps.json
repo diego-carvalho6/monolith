@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BGD.User.Repository.Mongo/1.0.0": {
+        "runtime": {
+          "BGD.User.Repository.Mongo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BGD.User.Repository.Mongo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
