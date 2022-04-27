@@ -86,6 +86,10 @@ namespace BGD.User.API
             services.AddTransient<IToDoListServices, ToDoListServices>();
             services.AddTransient<IToDoListRepository, ToDoListRepository>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSingleton<IQRRepository, QRRepository>();
+            services.AddSingleton<IQRServices, QRServices>();
+            services.AddSingleton<IRedirectRepository, RedirectRepository>();
+            services.AddSingleton<IRedirectServices, RedirectServices>();
             services.AddSingleton<PostgresDatabase>();
             services.AddSingleton<IConfiguration>(Configuration);
             services.AddSingleton<JWTServices>();

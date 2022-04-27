@@ -22,12 +22,12 @@ namespace BGD.User.Repository.Postgres.Connection
         }
         public NpgsqlConnection Connection(string tenant = null)
         {
-            var claim = _acessor.HttpContext.User.Claims.Where(x => x.Type.Equals("Tenant"));
+            var claim = _acessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type.Equals("Tenant"));
             var defaultDatabase = _enviromentConfiguration.GetConnectionString("PostgresConnection");
             var databaseName = defaultDatabase.Split(";").Where(x => x.StartsWith("database")).FirstOrDefault();
-            if (claim.Count() != 0 && !claim.FirstOrDefault().Value.Equals("default"))
+            if (claim != null && !claim.Value.Equals("default"))
             {
-                defaultDatabase = defaultDatabase.Replace(databaseName, $"database={claim.FirstOrDefault().Value}");
+                defaultDatabase = defaultDatabase.Replace(databaseName, $"database={claim.Value}");
             }
 
             if (tenant != null && !tenant.Equals("default"))

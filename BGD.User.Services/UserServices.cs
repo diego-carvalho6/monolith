@@ -36,21 +36,19 @@ namespace BGD.User.Services
                 return user;
             }
             var userRepository = await _repository.QueryAsync(user);
-            
-            var count = userRepository; 
-            
+
             if (userRepository.Count() != 0)
             {
                 throw new AlreadyInUseException();
             }
             
-            if (user.Password.Length < 8 || user.Password.Length > 30)
+            if (user?.Password.Length < 8 || user?.Password.Length > 30)
                 throw new DigitPasswordException();
 
-            if (user.Status == UserStatus.Admin)
-            {
-                user.Status = UserStatus.Staff;
-            }
+            // if (user.Status == UserStatus.Admin)
+            // {
+            //     user.Status = UserStatus.Staff;
+            // }
             
             await _repository.InsertAsync(user);
             

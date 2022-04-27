@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CY3Gsbe9KXvm8QDGPKrK0KT7FQGVUV2QidMu6+k4Lii79kUkUjgSKvtI+0palGkg96FE1G8JWafoxWoXUUaIkg==",
+  "dgSpecHash": "mfLl0yHDOJ62duZHW8hv95Zxj1OCqpNFWSmIyvkxWMGJA9AYs1MpV/EEb561q1nPtLqk2jIdew1NM97ImQe5ZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\diego\\source\\repos\\pedidos\\bff-user\\BGD.User.Entities\\BGD.User.Entities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\nanoid\\2.1.0\\nanoid.2.1.0.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\system.drawing.common\\5.0.3\\system.drawing.common.5.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

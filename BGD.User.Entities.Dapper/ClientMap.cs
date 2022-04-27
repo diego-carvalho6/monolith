@@ -11,7 +11,7 @@ namespace BGD.User.Entities.Dapper
             Map(x => x.Name).ToColumn("Name");
             Map(x => x.Description).ToColumn("Description");
             Map(x => x.Address).ToColumn("Address");
-            Map(x => x.Cellphone).ToColumn("Cellphone");
+            Map(x => x.CellPhone).ToColumn("Cellphone");
         }
     }
 }

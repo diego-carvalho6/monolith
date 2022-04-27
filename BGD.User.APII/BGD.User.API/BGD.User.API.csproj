@@ -24,5 +24,7 @@
     <ProjectReference Include="..\..\BGD.User.Repository.Postgres\BGD.User.Repository.Postgres.csproj" />
     <ProjectReference Include="..\..\BGD.User.Repository\BGD.User.Repository.csproj" />
     <ProjectReference Include="..\..\BGD.User.Services\BGD.User.Services.csproj" />
+    <PackageReference Include="QRCoder" Version="1.4.3" />
+    <PackageReference Include="Nanoid" Version="2.1.0" />
   </ItemGroup>
 </Project>

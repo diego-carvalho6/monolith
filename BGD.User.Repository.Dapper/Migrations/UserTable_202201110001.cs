@@ -13,7 +13,12 @@ namespace BGD.User.Repository.Dapper.Postgres.Migrations
         {
             // Create.Table("users_orders")
             //     .WithColumn("Id").AS
-
+            Create.Table("qr")
+                .WithColumn("Id").AsString().PrimaryKey()
+                .WithColumn("Tenant").AsString().Nullable()
+                .WithColumn("Table").AsString().Nullable()
+                .WithColumn("Url").AsString().Nullable();
+            
             Create.Table("user")
                 .WithColumn("Id").AsGuid().PrimaryKey()
                 .WithColumn("Name").AsString(100).Nullable()

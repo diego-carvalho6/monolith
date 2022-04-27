@@ -7,15 +7,18 @@ namespace BGD.User.Entities
     {
         public Guid? Id { get; set; }
         public string Name { get; set; }
-        public string Cellphone { get; set; }
         public string Description { get; set; }
         public string Address { get; set; }
-        public List<Order> Orders { get; set; }
+        public string Email { get; set; }
+        public bool Active { get; set; }
+        public string CellPhone { get; set; }
+        public int AdsCount {get; set;}
+        
+        public DateTime PaymentDate { get; set; }
         
         public Client()
         {
-            Id = Id.HasValue ? Id : Guid.NewGuid();
+            Id = Guid.NewGuid();
         }
-        
     }
 }

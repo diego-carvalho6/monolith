@@ -16,6 +16,7 @@ namespace BGD.User.Entities.Dapper
                 config.AddMap(new PayOutMap());
                 config.AddMap(new OrderUserMap());
                 config.AddMap(new OrderItemMap());
+                config.AddMap(new QRMap());
                 config.ForDommel();
 
             });

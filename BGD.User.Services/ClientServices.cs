@@ -41,29 +41,8 @@ namespace BGD.User.Services
 
             var client = clientRepository.FirstOrDefault();
 
-            if (client.Orders == null)
-            {
-                client.Orders = new List<Order>();
-            }
-            
             var orders = await _repository.GetOrders(client);
-            foreach (var order in orders)
-            {
-                client.Orders.Add(new Order
-                {
-                    Id = order.Id,
-                    Createdat = order.Createdat,
-                    Until = order.Until,
-                    Discount = order.Discount,
-                    Finalprice = order.Finalprice,
-                    Finished = order.Finished,
-                    Payed = order.Payed,
-                    Progress = (Entities.Enums.OderStatus)order.Progress,
-                });
-            }
             
-            
-                
             return client;
         }
 
